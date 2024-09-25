@@ -1,0 +1,39 @@
+.profile-container{
+    padding: 25px;
+}
+
+.profile-heading{
+    font-size: 35px;
+    border-bottom: 3px solid gray;
+    width: 110px;
+}
+
+.each-detail-container{
+    width: 275px;
+}
+
+.each-detail-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-details-highlghts{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.user-details{
+    font-weight: 400;
+}
+
+.update-btn{
+    border-radius: 5px;
+    border-width: 0px;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: rgba(128, 128, 128, 0.438);
+    font-weight: 400;
+}

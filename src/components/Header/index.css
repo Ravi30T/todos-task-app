@@ -1,0 +1,46 @@
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    margin: 20px;
+}
+
+.home-btn{
+    background-color: rgb(8, 88, 179);
+    border-width: 0px;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 7px 15px;
+    border-radius: 5px;
+    margin-top: 13px;
+}
+
+.profile-icon-btn{
+    background-color: transparent;
+    border-width: 0px;
+    outline: none;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+}
+
+.profile-icon{
+    font-size: 32px;
+    margin-top: 5px;
+}
+
+.logout-btn{
+    background-color: rgb(0, 171, 223);
+    border-width: 0px;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 7px 15px;
+    border-radius: 5px;
+}

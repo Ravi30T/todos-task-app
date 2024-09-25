@@ -1,0 +1,72 @@
+.login-section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    padding: 40px 15px;
+    border-radius: 7px;
+    box-shadow: 4px 4px 10px 6px rgba(128, 128, 128, 0.322);
+}
+
+.login-form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.todos-main-heading{
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.label{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(117, 117, 117);
+    margin-top: 10px;
+}
+
+.input-box{
+    border: 2px solid rgba(128, 128, 128, 0.63);
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+.login-btn{
+    border-radius: 5px;
+    outline: none;
+    border-width: 0px;
+    font-size: 17px;
+    padding: 7px;
+    margin-top: 5px;
+    background-color: rgb(34, 176, 241);
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.error-msg{
+    color: red;
+    text-align: center;
+}
+
+.create-account-text{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 500;
+}
+
